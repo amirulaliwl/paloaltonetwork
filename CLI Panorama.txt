@@ -1,0 +1,113 @@
+MGT interface
+# set deviceconfig system ip-address
+
+admin password
+# set mgt-config users admin password
+
+DNS
+# set deviceconfig system dns-setting servers
+
+NTP
+# set deviceconfig system ntp-servers
+
+Interfaces
+# set network interface
+
+System settings
+# set deviceconfig system
+
+Zones
+# set zone <name>
+# set vsys <name> zone <name>
+ 
+
+Security Profiles
+HIP Objects/Profiles
+URL Filtering Profiles
+WildFire Analysis Profiles
+# set profiles 
+# set vsys <name> profiles
+# set shared profiles
+ 
+
+Server Profiles
+	
+
+# set server-profile
+ 
+# set vsys <name> server-profile
+ 
+# set shared server-profile
+ 
+
+Authentication Profiles
+	
+
+# set authentication-profile
+ 
+# set vsys <name> authentication-profile
+ 
+# set shared authentication-profile
+ 
+
+Certificate Profiles
+	
+
+# set certificate-profile
+ 
+# set vsys <name> certificate-profile
+ 
+# set shared certificate-profile
+ 
+
+Policy
+	
+
+# set rulebase
+ 
+# set vsys vsys1 rulebase
+ 
+
+Log Quotas
+	
+
+# set deviceconfig setting management quota-settings
+
+User-ID
+	
+
+# set user-id-agent
+ 
+# set vsys <name>
+ user-id-agent
+ 
+# set user-id-collector
+ 
+# set vsys <name>
+ user-id-collector
+ 
+
+HA
+	
+
+# set deviceconfig high-availability
+
+AutoFocus Settings
+	
+
+# set deviceconfig setting autofocus
+
+WildFire Settings
+	
+
+# set deviceconfig setting wildfire
+
+Panorama
+	
+
+# set deviceconfig system panorama-server
+
+Restart
+	
+
+> request restart system
